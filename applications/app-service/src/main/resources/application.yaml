@@ -1,0 +1,21 @@
+##Spring Configuration
+server:
+  port: 8080
+spring:
+  application:
+    name: retries-dlq-strategy
+  devtools:
+    add-properties: false
+  rabbitmq:
+    host: 34.194.141.33
+    port: 5672
+    username: admin
+    password: FLyzdUafP6Sax948SnRkER8
+
+app:
+  async:
+    withDLQRetry: true
+    retryDelay: 5000
+    maxRetries: 3
+
+

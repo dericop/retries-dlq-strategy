@@ -1,0 +1,6 @@
+dependencies {
+    compile project(':model')
+    compile project(':usecase')
+    compile group: 'org.reactivecommons', name: 'async-commons-starter', version: '1.0.0-beta3'
+    compile 'org.springframework:spring-context'
+}
