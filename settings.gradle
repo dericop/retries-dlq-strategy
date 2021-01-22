@@ -16,3 +16,5 @@ include ':rest-subs-service'
 project(':rest-subs-service').projectDir = file('./infrastructure/driven-adapters/rest-subs-service')
 include ':dynamodb-fallback'
 project(':dynamodb-fallback').projectDir = file('./infrastructure/driven-adapters/dynamodb-fallback')
+include ':notification-sender'
+project(':notification-sender').projectDir = file('./infrastructure/driven-adapters/notification-sender')

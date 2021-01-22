@@ -7,21 +7,21 @@
         <processorPath useClasspath="false">
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.12/48e4e5d60309ebd833bc528dcf77668eab3cd72c/lombok-1.18.12.jar" />
         </processorPath>
-        <module name="retries-dlq-strategy.model.main" />
-        <module name="retries-dlq-strategy.rest-subs-service.test" />
-        <module name="retries-dlq-strategy.app-service.main" />
-        <module name="retries-dlq-strategy.usecase.test" />
-        <module name="retries-dlq-strategy.app-service.test" />
-        <module name="retries-dlq-strategy.dynamodb-fallback.main" />
-        <module name="retries-dlq-strategy.reactive-web.test" />
         <module name="retries-dlq-strategy.reactive-web.main" />
-        <module name="retries-dlq-strategy.usecase.main" />
-        <module name="retries-dlq-strategy.async-event-bus.test" />
-        <module name="retries-dlq-strategy.model.test" />
+        <module name="retries-dlq-strategy.rest-subs-service.test" />
         <module name="retries-dlq-strategy.dynamodb-fallback.test" />
-        <module name="retries-dlq-strategy.async-event-bus.main" />
+        <module name="retries-dlq-strategy.usecase.main" />
+        <module name="retries-dlq-strategy.app-service.test" />
         <module name="retries-dlq-strategy.event-subscriptions.main" />
+        <module name="retries-dlq-strategy.async-event-bus.main" />
+        <module name="retries-dlq-strategy.model.main" />
+        <module name="retries-dlq-strategy.reactive-web.test" />
+        <module name="retries-dlq-strategy.usecase.test" />
         <module name="retries-dlq-strategy.rest-subs-service.main" />
+        <module name="retries-dlq-strategy.dynamodb-fallback.main" />
+        <module name="retries-dlq-strategy.async-event-bus.test" />
+        <module name="retries-dlq-strategy.app-service.main" />
+        <module name="retries-dlq-strategy.model.test" />
         <module name="retries-dlq-strategy.event-subscriptions.test" />
       </profile>
     </annotationProcessing>

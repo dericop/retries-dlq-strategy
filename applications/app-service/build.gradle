@@ -1,6 +1,7 @@
 apply plugin: 'org.springframework.boot'
 
 dependencies {
+	implementation project(':notification-sender')
 	implementation project(':dynamodb-fallback')
 	implementation project(':rest-subs-service')
 	implementation project(':event-subscriptions')
