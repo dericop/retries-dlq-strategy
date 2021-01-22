@@ -7,7 +7,7 @@ spring:
   devtools:
     add-properties: false
   rabbitmq:
-    host: 34.194.141.33
+    host: <PUT_THE_HOST>
     port: 5672
     username: <PUT_THE_USER>
     password: <PUT_THE_PASSWORD>
