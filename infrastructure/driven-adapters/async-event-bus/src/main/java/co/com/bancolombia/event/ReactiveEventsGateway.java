@@ -20,10 +20,10 @@ import org.springframework.stereotype.Component;
 public class ReactiveEventsGateway implements CommandGateway {
 
     private final DirectAsyncGateway asyncGateway;
-    private static final String TARGET = "retries-dlq-strategy";
+    private static final String TARGET = "retries-dlq-strategy"; // comentario del nombre
 
     @Override
-    public Mono<Void> emitCommand(Subscription subs) {
+    public Mono<Void> emitCommand(Subscription subs) {   // send
         String uuid = UUID.randomUUID().toString();
         return asyncGateway.sendCommand(new Command<>("subscriptions.subscribe", uuid, subs), TARGET);
     }
