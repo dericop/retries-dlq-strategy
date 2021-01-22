@@ -15,7 +15,7 @@ spring:
 app:
   async:
     withDLQRetry: true
-    retryDelay: 2000
+    retryDelay: 5000
     maxRetries: 3
 
 
