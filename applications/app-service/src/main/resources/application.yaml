@@ -9,8 +9,8 @@ spring:
   rabbitmq:
     host: 34.194.141.33
     port: 5672
-    username: admin
-    password: FLyzdUafP6Sax948SnRkER8
+    username: <PUT_THE_USER>
+    password: <PUT_THE_PASSWORD>
 
 app:
   async:
